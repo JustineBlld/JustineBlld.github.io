@@ -20,11 +20,6 @@
 }
 
 
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-
 html {
 	scroll-behavior: smooth;
 }
