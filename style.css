@@ -73,20 +73,21 @@ ul {
 			font-size: 1vw;
 		}
 
-		#ordinateur li , #redesign li , #plaquette li , #rs li {
+		#redesign , #plaquette  , #rs {
+			height: 100vh;
+
+		}
+
+		#redesign li , #plaquette li , #rs li , #refonte li , #hob li {
 			display: inline-block;
 			width: 40vw;
 			height: 90vh;
 			text-align: left;
 			vertical-align: top;
-			margin-top: 10vh;
+
 		}
 
-		#ordinateur {
-			text-align: center;
-		}
-
-		#moi {
+		#moi , #form{
 		margin-left: 6vw; margin-right: 6vw;
 	}
 
@@ -107,9 +108,60 @@ ul {
 		margin: 5vh 4vw;
 		text-align: left;
 	}
+
+	#comp h4 {
+		font-size: 3vh;
+		margin-top: 5vh;
+	}
+
+	#comp li {
+		margin: 0vh 3vw;
+	}
+
+	img {
+		width: auto ;
+		margin: 6vh 0vw;
+		witdh: 100%;
+	}
+
+	#descr {
+		font-size: 2rem;
+		margin-left: 4vw;
+		margin-right: 20vw;
+	}
+
+	article {
+		height: 100vh;
+		margin-bottom: 8vh;
+	}
+
+	#contact {
+		height: 100vh;
+		font-size: 2vw;
+	}
+
+	#contact p {
+		text-align: center;
+		font-size: 1.5vw;
+	}
+
+
+	#contact img {
+		height: 20vh;
+	}
+
+	#mail {
+	line-height: 25vh;
 }
 
-@media screen and (min-width: 650px) {
+	#phrase {
+	padding-top: 25vh;
+	}	
+	
+
+}
+
+@media screen and (min-width: 750px) {
 	#menu li {
 		display:inline-block;
 		width: 20vw;
@@ -118,19 +170,25 @@ ul {
 
 	}
 
-	#ordinateur {
+		#redesign li , #plaquette li , #rs li , #web li , #refonte li , #hob li {
 			display: inline-block;
 			width: 40vw;
-			height: 90vh;
+			height: 80vh;
 			text-align: left;
 			vertical-align: top;
-			margin-top: 10vh;
+			
+			margin: 10vh 2vw;
 		}
 
 	#comp h3 {
 		margin-top: 5vh;
 		font-size: 8vh;
 		margin-left: 4vw;
+	}
+
+	#comp h4 , #rs h4 {
+		margin-left: 2vw;
+		font-size: 2vw;
 	}
 
 		#comp h5 {
@@ -144,9 +202,13 @@ ul {
 		text-align: left;
 	}
 
+	#comp li {
+		
+	}
+
 	p {
 		font-size: 2vh;
-		margin: 2vh 3vw;
+		margin: 2vh 2vw;
 		text-align: left;
 	}
 
@@ -157,11 +219,13 @@ ul {
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
 
 	html {
 		text-align: center;
+		margin-left: 0.5vh;
 	}
+
 	#menu li {
 			width: 80vw;
 			margin: 6vh 10vw;
@@ -184,7 +248,7 @@ ul {
 		margin-left: 6vw; margin-right: 6vw;
 	}
 
-	#comp h3 {
+	#comp h3 , #refonte h3 , #hob h3{
 		margin-top: 5vh;
 		font-size: 4vh;
 	}
@@ -194,9 +258,10 @@ ul {
 		font-size: 1.8vh;
 }
 
-	#comp h4 {
+	#comp h4, #refonte h4 , #hob h4 {
 		font-size: 2.8vh;
-		margin: 1vh 3vw;
+		margin-top: 10vh;
+		
 	}
 
 
@@ -209,11 +274,41 @@ ul {
 		font-size: 2vh;
 		margin: 2vh 5vw;
 	}
+
+	#contact {
+		font-size: 4vw;
+		height: 80vh;
+	}
+
+	#contact img {
+		height: 12vh;
+	}
+
+	#mail {
+		line-height: 20vh;
+	}
+
+	#phrase {
+	padding-top: 5vh;
+	}	
 }
+
+
+
+
+
+
+
+
+
 
 header img {
 	width: 100vw;
 
+}
+
+img {
+	box-shadow: 10px 10px 18px #a7a7a7;
 }
 
 
@@ -255,5 +350,102 @@ header img {
 
 #comp h5 {
 	text-align: left;
+}
+
+
+#crochet ul {
+	text-align: center;
+	
+}
+
+#crochet h3 {
+	text-align: left;
+	margin-left: 10vw;
+	font-size: 5vh;
+}
+
+#crochet li {
+	width: 40vh;
+	height: 40vh;
+	border: solid 0.5vh rgba(48, 48, 48, 1);
+	display: inline-block;
+	margin : 2vh 1vw 2vh 1vw;
+	vertical-align: top;
+	box-shadow: 10px 10px 18px #a7a7a7;
+}
+
+#crochet p {
+	opacity: 0;
+	transition: all	0.5s ease;
+	text-align: center;
+	width: 40vh;
+	height: 25vh;
+	background-color: white;
+	font-family: bulle;
+	font-size: 4vh;
+	padding-top: 15vh;
+}
+
+#crochet p:hover {
+	transform : scale(0.9) ;
+	opacity: 0.6;
+}
+
+#abeille {
+	background: transparent url("cv18.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+#abeille p , #ponyo p, #veste p, #doudou p {
+	background: transparent url("cv14.jpg") center center no-repeat;
+	background-size: cover;
+
+}
+
+#doudou {
+	background: transparent url("cv15.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+#veste {
+	background: transparent url("cv16.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+#ponyo {
+	background: transparent url("cv17.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+#contact {
+	margin-top: 10vh;
+	background: transparent url("cv22.jpg") center center no-repeat;
+	background-size: cover;
+
+}
+
+#contact p {
+		text-align: center;
+	}
+
+
+
+
+#contact li  {
+	list-style-type: none;
+	margin-top: 1vh;
+	padding-top: 1vh;
+}
+
+#contact img {
+	width: auto;
+	border-radius: 50%;
+	border: solid 2px rgba(48, 48, 48, 1);
+}
+
+#ph li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0vh 1vw 0vh 1vw;
 }
 
