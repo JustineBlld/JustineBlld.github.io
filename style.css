@@ -249,7 +249,7 @@ ul {
 	}
 
 	#comp h3 , #refonte h3 , #hob h3{
-		margin-top: 5vh;
+		margin-top: 15vh;
 		font-size: 4vh;
 	}
 
@@ -258,7 +258,7 @@ ul {
 		font-size: 1.8vh;
 }
 
-	#comp h4, #refonte h4 , #hob h4 {
+	#comp h4, #refonte h4 , #hob h4 , #rs h4{
 		font-size: 2.8vh;
 		margin-top: 10vh;
 		
@@ -304,6 +304,7 @@ ul {
 
 header img {
 	width: 100vw;
+	box-shadow: none;
 
 }
 
