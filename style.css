@@ -32,9 +32,10 @@ li {
 	list-style-type: none;
 }
 
-h3 {
+h3 ,h4 , h5 {
 	font-family: bulle;
 }
+
 
 p {
 	font-family: corps;
@@ -63,16 +64,19 @@ ul {
 @media screen and (min-width: 1500px) {
 		#menu li {
 			width: 20vw;
-			margin: 0 1vw;
+			margin: 0 0.8vw;
 			font-size: 1.5vw;
-		
+			height: 40vh;
 		}
 
-		#ordinateur li {
+		#menu p {
+			font-size: 1vw;
+		}
+
+		#ordinateur li , #redesign li , #plaquette li , #rs li {
 			display: inline-block;
 			width: 40vw;
 			height: 90vh;
-			border: solid 1px red;
 			text-align: left;
 			vertical-align: top;
 			margin-top: 10vh;
@@ -91,6 +95,18 @@ ul {
 		height: 10vh;
 		display: inline-block;
 	}
+
+	#comp h3 {
+		margin-top: 5vh;
+		font-size: 8vh;
+		margin-left: 4vw;
+	}
+
+	#rs h3 {
+		font-size: 3vh;
+		margin: 5vh 4vw;
+		text-align: left;
+	}
 }
 
 @media screen and (min-width: 650px) {
@@ -98,6 +114,7 @@ ul {
 		display:inline-block;
 		width: 20vw;
 		margin: 0 1vw;
+		height: 12rem;
 
 	}
 
@@ -105,12 +122,38 @@ ul {
 			display: inline-block;
 			width: 40vw;
 			height: 90vh;
-			border: solid 1px red;
 			text-align: left;
 			vertical-align: top;
 			margin-top: 10vh;
 		}
 
+	#comp h3 {
+		margin-top: 5vh;
+		font-size: 8vh;
+		margin-left: 4vw;
+	}
+
+		#comp h5 {
+		margin-left: 8vw ;
+		font-size: 2vh;
+}
+
+	#rs h3 {
+		font-size: 3vh;
+		margin: 5vh 4vw;
+		text-align: left;
+	}
+
+	p {
+		font-size: 2vh;
+		margin: 2vh 3vw;
+		text-align: left;
+	}
+
+	img {
+		width: 80%;
+		margin: 3vh 0vw;
+	}
 
 }
 
@@ -124,7 +167,13 @@ ul {
 			margin: 6vh 10vw;
 			font-size: 4.5vw;
 			padding-top: 4vh;
+			height: 11rem;
 			
+	}
+
+	img {
+		width: 85%;
+		margin: 3vh 0vw;
 	}
 
 	#menu a {
@@ -133,6 +182,32 @@ ul {
 
 	#moi {
 		margin-left: 6vw; margin-right: 6vw;
+	}
+
+	#comp h3 {
+		margin-top: 5vh;
+		font-size: 4vh;
+	}
+
+	#comp h5 {
+		margin-left: 5vw ;
+		font-size: 1.8vh;
+}
+
+	#comp h4 {
+		font-size: 2.8vh;
+		margin: 1vh 3vw;
+	}
+
+
+	#rs h3 {
+		font-size: 3.5vh;
+		margin: 3vh 2vw;
+	}
+
+	p {
+		font-size: 2vh;
+		margin: 2vh 5vw;
 	}
 }
 
@@ -147,7 +222,6 @@ header img {
 }
 
 #menu li {
-	height: 12rem;
 	vertical-align: top;
 	background: transparent url("cv14.jpg") center center no-repeat;
 	background-size: cover;
@@ -164,7 +238,7 @@ header img {
 	margin-bottom: 2vh;
 }
 #menu a {
-	padding: 1vh 2vw;
+	padding: 0.8vh 2vw;
 	background-color: rgba(48, 48, 48, 1);
 	color: white;
 	border-radius: 5%;
@@ -177,5 +251,9 @@ header img {
 
 #moi p {
 	margin: 2vh 0;
+}
+
+#comp h5 {
+	text-align: left;
 }
 
