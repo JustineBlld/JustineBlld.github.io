@@ -74,16 +74,17 @@ ul {
 		}
 
 		#redesign , #plaquette  , #rs {
-			height: 100vh;
+			height: 120vh;
 
 		}
 
-		#redesign li , #plaquette li , #rs li , #refonte li , #hob li {
+		#redesign li , #plaquette li , #rs li , #refonte li , #hob li , #web li{
 			display: inline-block;
 			width: 40vw;
-			height: 90vh;
 			text-align: left;
 			vertical-align: top;
+			border: solid 1px red;
+			margin: 4vh 2vw;
 
 		}
 
@@ -91,48 +92,36 @@ ul {
 		margin-left: 6vw; margin-right: 6vw;
 	}
 
-	#xp li {
-		width: 40vw;
-		height: 10vh;
-		display: inline-block;
-	}
-
-	#comp h3 {
+	#comp h3, #rs h3 , #refonte h3{
 		margin-top: 5vh;
 		font-size: 8vh;
 		margin-left: 4vw;
 	}
 
-	#rs h3 {
-		font-size: 3vh;
-		margin: 5vh 4vw;
-		text-align: left;
-	}
-
-	#comp h4 {
+	
+	#comp h4, #refonte h4{
 		font-size: 3vh;
 		margin-top: 5vh;
 	}
+
 
 	#comp li {
 		margin: 0vh 3vw;
 	}
 
 	img {
-		width: auto ;
-		margin: 6vh 0vw;
-		witdh: 100%;
+		height: 100vh;
+		width: auto;
 	}
 
 	#descr {
-		font-size: 2rem;
-		margin-left: 4vw;
-		margin-right: 20vw;
-	}
+		font-size: 2.5rem;
+		padding: 0vh 2vw;
+			}
 
 	article {
-		height: 100vh;
-		margin-bottom: 8vh;
+		height: 120vh;
+		
 	}
 
 	#contact {
@@ -157,6 +146,8 @@ ul {
 	#phrase {
 	padding-top: 25vh;
 	}	
+
+
 	
 
 }
@@ -170,52 +161,57 @@ ul {
 
 	}
 
+	
+
+	a
+
 		#redesign li , #plaquette li , #rs li , #web li , #refonte li , #hob li {
 			display: inline-block;
 			width: 40vw;
-			height: 80vh;
+			height: 100vh;
 			text-align: left;
 			vertical-align: top;
-			
 			margin: 10vh 2vw;
 		}
 
-	#comp h3 {
+	#comp h3 , #rs h3 , #hob h3{
 		margin-top: 5vh;
 		font-size: 8vh;
 		margin-left: 4vw;
 	}
 
-	#comp h4 , #rs h4 {
+	#comp h4 , #rs h4 , #hob h4 , #refonte h4{
 		margin-left: 2vw;
 		font-size: 2vw;
 	}
 
-		#comp h5 {
+	#comp h5{
 		margin-left: 8vw ;
-		font-size: 2vh;
+		font-size: 2.5vh;
 }
 
-	#rs h3 {
+	 {
 		font-size: 3vh;
 		margin: 5vh 4vw;
 		text-align: left;
 	}
 
-	#comp li {
-		
+	#rs h4 {
+		margin-top: 6vh;
 	}
-
 	p {
-		font-size: 2vh;
+		font-size: 2.5vh;
 		margin: 2vh 2vw;
 		text-align: left;
 	}
 
 	img {
 		width: 80%;
+		height: auto;
 		margin: 3vh 0vw;
 	}
+
+
 
 }
 
@@ -235,9 +231,18 @@ ul {
 			
 	}
 
+	#descr {
+		font-size: 3vh;
+		padding: 0vh 1vw;
+			}
+
 	img {
 		width: 85%;
 		margin: 3vh 0vw;
+	}
+
+	#img {
+		height: 90%;
 	}
 
 	#menu a {
@@ -248,7 +253,7 @@ ul {
 		margin-left: 6vw; margin-right: 6vw;
 	}
 
-	#comp h3 , #refonte h3 , #hob h3{
+	#comp h3 , #refonte h3 , #hob h3 , #hob h3{
 		margin-top: 15vh;
 		font-size: 4vh;
 	}
@@ -385,6 +390,8 @@ img {
 	font-family: bulle;
 	font-size: 4vh;
 	padding-top: 15vh;
+	margin-left: 0;
+	margin-top: 0;
 }
 
 #crochet p:hover {
