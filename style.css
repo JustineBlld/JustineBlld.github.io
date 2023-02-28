@@ -81,6 +81,7 @@ ul {
 		#redesign li , #plaquette li , #rs li , #refonte li , #hob li , #web li{
 			display: inline-block;
 			width: 40vw;
+			height: 100vh;
 			text-align: left;
 			vertical-align: top;
 			margin: 4vh 2vw;
@@ -167,7 +168,7 @@ ul {
 	#redesign li , #plaquette li , #rs li , #web li , #refonte li , #hob li {
 		display: inline-block;
 		width: 40vw;
-		height: 100vh;
+		
 		text-align: left;
 		vertical-align: top;
 		margin: 10vh 1.5vw;
@@ -222,6 +223,30 @@ ul {
 }
 
 
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 1500px) { 
+
+	article { 
+		height: 100vh;
+	}
+	
+	#redesign li , #plaquette li , #rs li , #web li , #refonte li , #hob li {
+		height: 100vh;
+	}	
+
+	#crochet { 
+		height: 100vh;
+	}
+
+	#contact { 
+		height: 70vh;
+	}
+
+	#contact h4 { 
+		padding-top: 15vh;
+	}
 
 }
 
